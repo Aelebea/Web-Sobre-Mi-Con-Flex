@@ -15,10 +15,7 @@ body {
   /*Asegura que el body tenga altura completa*/
   min-height: 100vh;
   margin: 0;
-
-  /*background-color: #0d0b1e;*/
   color: #f5f0ff;
-  min-height: 100vh;
 }
 
 nav {
@@ -62,12 +59,15 @@ header {
   flex-shrink: 0;
 }
 
+/*margin, padding y border para reemplazar el <hr /> (que es un borde) y el <br /> (que es un espacio vacío)*/
 .header-texto h1 {
   font-family: "Lobster Two", serif;
   font-size: 50px;
   color: #e8d5ff;
   letter-spacing: 4px;
   margin-bottom: 12px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 1px;
 }
 
 .art-style {
